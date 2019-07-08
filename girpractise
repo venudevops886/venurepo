@@ -1,0 +1,12 @@
+#!/bin/bash
+echo -e "enter a digit:\c"
+read p
+case $p in 
+    [0-9]) echo $p is a digit;;
+    [A-Z]) echo $p is a large ;;
+    [a-z]) echo $p is a small;;
+    ?) echo $p is special ;;
+    *) echo $p is unknown ;;
+esac
+#this is case statement in scripting
+    
